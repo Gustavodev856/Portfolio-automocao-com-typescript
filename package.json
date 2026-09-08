@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-automocao-com-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavodev856/Portfolio-automocao-com-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gustavodev856/Portfolio-automocao-com-typescript/issues"
+  },
+  "homepage": "https://github.com/Gustavodev856/Portfolio-automocao-com-typescript#readme",
+  "devDependencies": {
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}
