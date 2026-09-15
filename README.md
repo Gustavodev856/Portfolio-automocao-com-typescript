@@ -1,90 +1,125 @@
-🚀 Portfolio Automação com TypeScript
+📚 Portfólio de Automação com TypeScript
 
-Projeto desenvolvido com TypeScript com foco em estudos, prática de automação e aplicação de conceitos de desenvolvimento utilizando uma estrutura organizada de código e testes automatizados.
+Projeto desenvolvido como parte dos estudos de Node.js e TypeScript, com o objetivo de praticar conceitos fundamentais da linguagem e a organização de um projeto.
 
-O projeto faz parte do meu processo de aprendizado e evolução no desenvolvimento de aplicações utilizando o ecossistema JavaScript/TypeScript.
+🎯 Objetivo
+
+Criar um repositório remoto contendo uma estrutura básica de projeto Node.js, com exemplos práticos de:
+
+Variáveis;
+
+Funções;
+
+Organização de arquivos;
+
+TypeScript;
+
+Testes automatizados;
+
+Documentação através de um arquivo README.md.
 
 🛠️ Tecnologias utilizadas
 
-TypeScript — desenvolvimento com tipagem estática
+Node.js
 
-Node.js — ambiente de execução
+TypeScript
 
-TSX — execução de arquivos TypeScript
+TSX
 
-Vitest — testes automatizados
+Vitest
 
-JavaScript/TypeScript — lógica e estrutura da aplicação
+Git
 
-Git/GitHub — versionamento e gerenciamento do projeto
+GitHub
 
 📂 Estrutura do projeto
 Portfolio-automocao-com-typescript/
 │
 ├── src/
-│   └── nivelamento/      # Arquivos relacionados aos estudos e nivelamento
+│   └── nivelamento/
+│       └── # Exemplos e exercícios em TypeScript
 │
-├── tests/                # Testes automatizados
+├── tests/
+│   └── # Testes automatizados
 │
-├── utils/                # Funções e recursos auxiliares
+├── utils/
+│   └── # Funções e recursos auxiliares
 │
-├── package.json          # Configurações e dependências do projeto
-├── package-lock.json     # Controle das versões das dependências
-├── tsconfig.json         # Configurações do TypeScript
-├── .gitignore            # Arquivos ignorados pelo Git
-└── README.md             # Documentação do projeto
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── .gitignore
+└── README.md
 
-⚙️ Pré-requisitos
+📦 Estrutura básica do Node.js
 
-Antes de começar, você precisa ter instalado em sua máquina:
+O projeto possui os arquivos básicos necessários para trabalhar com uma aplicação Node.js utilizando TypeScript.
 
-Node.js
+O arquivo package.json é responsável por armazenar informações do projeto e suas dependências.
 
-npm
+Exemplo:
 
-Git
+{
+  "name": "portfolio-automocao-com-typescript",
+  "version": "1.0.0",
+  "description": "Projeto de estudos com Node.js e TypeScript"
+}
 
-Para verificar se o Node.js está instalado:
+📌 Exemplos de variáveis
 
-node --version
+O projeto contém exemplos de declaração e utilização de variáveis utilizando TypeScript.
 
+const nome: string = "Gustavo";
+const idade: number = 25;
+const estudante: boolean = true;
 
-E para verificar o npm:
-
-npm --version
-
-📥 Instalação
-
-Clone o repositório:
-
-git clone https://github.com/Gustavodev856/Portfolio-automocao-com-typescript.git
-
-
-Entre na pasta do projeto:
-
-cd Portfolio-automocao-com-typescript
+console.log(nome);
+console.log(idade);
+console.log(estudante);
 
 
-Instale as dependências:
+O TypeScript permite definir o tipo de cada variável, ajudando a evitar erros durante o desenvolvimento.
 
-npm install
+Alguns tipos utilizados:
 
-▶️ Executando o projeto
+string — textos;
 
-O projeto utiliza TSX para execução de arquivos TypeScript.
+number — números;
 
-Você pode executar os arquivos TypeScript utilizando:
+boolean — verdadeiro ou falso;
 
-npx tsx caminho/do/arquivo.ts
+array — listas de valores;
+
+object — objetos.
+
+🔧 Exemplos de funções
+
+Também foram desenvolvidos exemplos de funções utilizando TypeScript.
+
+Função simples
+function saudacao(nome: string): string {
+    return `Olá, ${nome}!`;
+}
+
+console.log(saudacao("Gustavo"));
+
+Função com números
+function somar(numero1: number, numero2: number): number {
+    return numero1 + numero2;
+}
+
+const resultado = somar(10, 20);
+
+console.log(resultado);
 
 
-Substitua caminho/do/arquivo.ts pelo arquivo que deseja executar.
+Esses exemplos demonstram a utilização de parâmetros, retorno de funções e tipagem no TypeScript.
 
 🧪 Testes
 
-Os testes do projeto utilizam o Vitest.
+O projeto utiliza o Vitest para criação de testes automatizados.
 
-Para executar o Vitest diretamente:
+Para executar os testes:
 
 npx vitest
 
@@ -93,69 +128,47 @@ Para executar os testes em modo de observação:
 
 npx vitest --watch
 
+🚀 Como executar o projeto
+1. Clonar o repositório
+git clone https://github.com/Gustavodev856/Portfolio-automocao-com-typescript.git
 
-Observação: o script npm test atualmente é apenas um placeholder no package.json. Os testes podem ser executados diretamente através do Vitest.
+2. Acessar a pasta
+cd Portfolio-automocao-com-typescript
 
-🎯 Objetivos do projeto
+3. Instalar as dependências
+npm install
 
-Este projeto tem como principais objetivos:
+4. Executar um arquivo TypeScript
+npx tsx caminho/do/arquivo.ts
 
-Praticar TypeScript;
+📝 O que foi feito
 
-Desenvolver uma melhor compreensão sobre tipagem estática;
+Neste projeto foram realizados os seguintes itens:
 
-Trabalhar com organização e separação de responsabilidades;
+✅ Criado um repositório remoto no GitHub;
 
-Praticar criação e execução de testes;
+✅ Criada uma estrutura básica de projeto Node.js;
 
-Utilizar ferramentas modernas do ecossistema JavaScript;
+✅ Configurado o projeto para trabalhar com TypeScript;
 
-Desenvolver boas práticas de programação;
+✅ Criados exemplos de variáveis;
 
-Evoluir conhecimentos em automação e desenvolvimento de software.
+✅ Criados exemplos de funções;
 
-📚 Aprendizados
+✅ Adicionados exemplos de testes automatizados;
 
-Durante o desenvolvimento deste projeto, são trabalhados conceitos importantes como:
+✅ Organizados os arquivos em diretórios;
 
-Tipos e interfaces do TypeScript;
+✅ Criado este README.md para explicar o projeto.
 
-Organização de código;
+🎓 Objetivo do aprendizado
 
-Funções e estruturas de dados;
-
-Modularização;
-
-Utilização de ferramentas de desenvolvimento;
-
-Testes automatizados;
-
-Estruturação de projetos Node.js;
-
-Boas práticas de desenvolvimento.
-
-🚧 Status do projeto
-
-🟡 Em desenvolvimento
-
-O projeto está sendo utilizado como parte do processo de aprendizado e evolução com TypeScript, podendo receber novas funcionalidades, melhorias e novos testes ao longo do tempo.
+O principal objetivo deste projeto é desenvolver uma base sólida nos conceitos fundamentais de Node.js e TypeScript, preparando o ambiente para projetos mais avançados de automação e desenvolvimento de software.
 
 👨‍💻 Autor
 
 Gustavo
 
-Desenvolvedor em constante aprendizado e evolução, com interesse em TypeScript, automação, desenvolvimento de software e tecnologias modernas.
+GitHub: Gustavodev856
 
-🔗 GitHub
-
-⭐ Contribuição
-
-Sugestões, melhorias e contribuições são bem-vindas!
-
-Caso encontre algum problema ou tenha uma ideia para melhorar o projeto, fique à vontade para abrir uma Issue ou enviar um Pull Request.
-
-📄 Licença
-
-Este projeto está atualmente sob a licença ISC, conforme configurado no package.json.
-
-⭐ Se este projeto foi útil para você, considere deixar uma estrela no repositório!
+⭐ Projeto desenvolvido para fins de estudo e aprendizado.
