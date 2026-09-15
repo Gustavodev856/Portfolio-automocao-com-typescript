@@ -11,19 +11,19 @@ function loginLento(usuario: string): Promise<string> {
 
 test('Simular login usando fake timers', async () => {
     // ligando a maquina do tempo
-    vi.userFakeTimers();
+    vi.useFakeTimers();
     console.log('⏳ INICIANDO CENÁRIO DE TESTE ;D');
 
     // chamando promisse de usuario sem await ainda
     const promessaLogin = loginLento("Dona redonda")
 
     //configura avanço de 5 segundos
-    vi.advanceByTimers(5000)
+    vi.advanceTimersByTime(5000)
 
     const resultado = await promessaLogin;
 
     //verificar resultado
-    expect(resultado).toBe("BEM-VINDO, Dona Redonda!")
+    expect(resultado).toBe("BEM-VINDO, Dona redonda!")
 
     console.log("Sucesso teste realizado na velocidade da luz");
     
