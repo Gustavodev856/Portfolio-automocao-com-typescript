@@ -76,3 +76,11 @@
 
      expect(dados.title).toBe('Alterando apenas o titulo com PATCH')
  })
+
+ test('Metodo DELETE para DELETAR um post', async () => {
+    const res = await fetch(`${BASE_URL}/posts/1`, {
+        method: 'DELETE',
+    })
+    // TESTA STATUS CODE
+    expect(res.status).toBe(200)
+ })
